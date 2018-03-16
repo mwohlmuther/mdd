@@ -3,10 +3,10 @@ package org.se.lab;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenericListHolder<T> {
+public class GenericListHolder<TYPE> {
 
 	private int id;
-	private List<T> list = new ArrayList<>();
+	private List<TYPE> list = new ArrayList<>();
 
 	// Konstruktor
 	public GenericListHolder(int id) {
@@ -17,11 +17,11 @@ public class GenericListHolder<T> {
 		return id;
 	}
 
-	public List<T> getList() {
+	public List<TYPE> getList() {
 		return list;
 	}
 
-	public void addElement(T newElement) {
+	public void addElement(TYPE newElement) {
 		list.add(newElement);
 	}
 

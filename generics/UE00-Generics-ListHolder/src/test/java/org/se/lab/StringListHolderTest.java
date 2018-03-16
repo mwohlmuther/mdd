@@ -21,7 +21,7 @@ public class StringListHolderTest {
 		Assert.assertFalse(lh.getStringList().isEmpty());
 
 		Assert.assertEquals("firstElement", lh.getStringList().get(0));
-		Assert.assertEquals("firstElement", lh.getStringList().get(0));
+		Assert.assertEquals("secondElement", lh.getStringList().get(1));
 	}
 
 }
