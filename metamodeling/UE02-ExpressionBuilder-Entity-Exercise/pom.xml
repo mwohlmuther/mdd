@@ -31,7 +31,7 @@
 		
 		<dependency>
 			<groupId>org.se.lab</groupId>
-			<artifactId>Metamodel-Entity</artifactId>
+			<artifactId>UE01-Metamodel-Entity-Solution</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		
