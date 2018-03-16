@@ -18,7 +18,7 @@ public class MColumnn extends MNamedElement
 	 * Reference: ---[1]-> MType
 	 */
 	private MType type;
-	public MType getTypes()
+	public MType getType()
 	{
 		return type;
 	}
