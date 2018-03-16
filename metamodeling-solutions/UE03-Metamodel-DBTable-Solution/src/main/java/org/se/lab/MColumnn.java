@@ -3,12 +3,12 @@ package org.se.lab;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MColumn extends MNamedElement
+public class MColumnn extends MNamedElement
 {
 	/*
 	 * Constructor
 	 */
-	public MColumn(String name)
+	public MColumnn(String name)
 	{
 		super(name);
 	}
@@ -18,7 +18,7 @@ public class MColumn extends MNamedElement
 	 * Reference: ---[1]-> MType
 	 */
 	private MType type;
-	public MType getType()
+	public MType getTypes()
 	{
 		return type;
 	}

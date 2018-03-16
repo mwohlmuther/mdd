@@ -16,12 +16,12 @@ public class MTable extends MNamedElement
 	/*
 	 * Reference: ---[*]-> MColumn
 	 */
-	private List<MColumn> columns = new ArrayList<MColumn>();
-	public List<MColumn> getColumns()
+	private List<MColumnn> columns = new ArrayList<MColumnn>();
+	public List<MColumnn> getColumns()
 	{
 		return columns;
 	}
-	public void setColumns(List<MColumn> columns)
+	public void setColumns(List<MColumnn> columns)
 	{
 		this.columns = columns;
 	}

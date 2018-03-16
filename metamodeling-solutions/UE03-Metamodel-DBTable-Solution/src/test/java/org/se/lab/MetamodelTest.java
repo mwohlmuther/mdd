@@ -14,18 +14,18 @@ public class MetamodelTest
 	{
 		table = new MTable("User");
 		
-		MColumn id = new MColumn("id");
+		MColumnn id = new MColumnn("id");
 		id.setType(new MType("INT"));
 		id.getConstraints().add(new MConstraint("NOT NULL"));
 		id.getConstraints().add(new MConstraint("PRIMARY KEY"));
 		table.getColumns().add(id);
 		
-		MColumn username = new MColumn("username");
+		MColumnn username = new MColumnn("username");
 		username.setType(new MType("VARCHAR(256)"));
 		username.getConstraints().add(new MConstraint("NOT NULL"));
 		table.getColumns().add(username);
 		
-		MColumn passwd = new MColumn("passwd");
+		MColumnn passwd = new MColumnn("passwd");
 		passwd.setType(new MType("VARCHAR(256)"));
 		passwd.getConstraints().add(new MConstraint("NOT NULL"));
 		table.getColumns().add(passwd);
@@ -42,7 +42,7 @@ public class MetamodelTest
 	@Test
 	public void testColumnId()
 	{
-		MColumn id = table.getColumns().get(0);
+		MColumnn id = table.getColumns().get(0);
 		
 		Assert.assertEquals("id", id.getName());
 		Assert.assertEquals("INT", id.getType().getName());
