@@ -1,0 +1,6 @@
+<routes xmlns="http://camel.apache.org/schema/spring">
+    <route id="filecopy">
+        <from uri="file:src/main/resources/input?move=../processed"/>
+        <log message="file processed"/>
+    </route>
+</routes>
