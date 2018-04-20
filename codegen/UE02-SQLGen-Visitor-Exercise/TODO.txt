@@ -1,0 +1,5 @@
+Implementieren Sie die Klasse SqlGeneratorVisitor.java welche
+in der Lage ist aus einer Instanz des Tabellen-Modells ein
+gültiges SQL Statement zur Erstellung der Tabelle zu erstellen.
+
+Bei der Implementierung wird das Visitor Pattern verwendet.

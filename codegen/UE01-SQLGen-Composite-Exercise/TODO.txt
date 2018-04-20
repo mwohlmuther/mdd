@@ -1,0 +1,10 @@
+Passen sie Ihre Modell-Klassen so an, dass sie das Interface SqlGenerator.java
+implementieren und in der Lage sind das für ihren jeweiligen
+Typ notwendige SQL zu liefern um eine gültige
+Datenbanktabelle zu erstellen.
+
+Bei der Implementierung wird das Composite Pattern verwendet.
+
+Wie im Test "GeneratorTest.java" ersichtlich muss von der MTable.java
+Klasse augegangen werden welche die in ihr vorhandenen Eigenschaften
+der Tabelle verwendet um die vollständige Tabllenstruktur zu erstellen.
