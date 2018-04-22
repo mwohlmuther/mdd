@@ -1,0 +1,10 @@
+Implementieren Sie die Klasse CreateInsertGenerator.java welche
+in der Lage ist aus einer Instanz einer Entität User ein
+gültiges SQL Insert Statement zur Erstellung der Tabelle zu erstellen.
+
+Achten Sie darauf, dass alle Eigenschaften der Entitäten verwendet werden,
+auch auf das "Autocommit" der Entität.
+
+Das fertige SQL-Statement soll wie folgt aussehen:
+
+INSERT INTO USERS (NAME,AGE,GENDER) VALUES ('Horst',1,'m'); 
